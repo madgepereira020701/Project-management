@@ -14,20 +14,20 @@ Project Management has Sidebar button to add project and you have to click the b
 <br>![Details Entered](https://github.com/madgepereira020701/Project-management/blob/main/Website%20Snapshots/3.%20Details%20Entered.png)<br><br>
 <br>4. Project stored in Sidebar:
 <br><br>Project is stored in sidebar.
-<br><br>![Project stored](https://github.com/madgepereira020701/Project-management/blob/main/Website%20Snapshots/4.%20Project%20stored%20in%20sidebar%20after%20saved.png)<br><br>
-<br>5. Add Tasks:<br><br>
+<br><br>![Project stored](https://github.com/madgepereira020701/Project-management/blob/main/Website%20Snapshots/4.%20Project%20stored%20in%20sidebar%20after%20saved.png)<br><br><br>
+<br>5. Add Tasks:
 <br><br>Tasks has to be added one by one in textbox and click Add Task next to the textbox.
 <br><br>![Add Tasks](https://github.com/madgepereira020701/Project-management/blob/main/Website%20Snapshots/5.%20Add%20Task.png)<br><br>
-<br>6. Tasks Added :<br><br>
+<br><br>6. Tasks Added :
 <br><br>All tasks are displayed below with a clear button in case if you want to remove the task.
 <br><br>![Tasks Added](https://github.com/madgepereira020701/Project-management/blob/main/Website%20Snapshots/6.%20Tasks%20Added.png)<br><br>
-<br>7. Clear Task :<br><br>
+<br><br>7. Clear Task :
 <br><br>When the mouse touches the clear button, it turns red. To delete click Clear.
 <br><br>![Clear Tasks](https://github.com/madgepereira020701/Project-management/blob/main/Website%20Snapshots/7.%20Clear%20Task.png)<br><br>
-<br>8. Task Cleared:<br><br>
+<br><br>8. Task Cleared:
 <br><br>You can see here one task is removed after clicking Clear.
 <br><br>![Tasks Cleared](https://github.com/madgepereira020701/Project-management/blob/main/Website%20Snapshots/8.%20Task%20Cleared.png)<br><br>
-<br>9. Deleted Project:<br><br>
+<br><br>9. Deleted Project:
 <br><br>When you click Delete Button to Delete Project, the button turns red and the project gets deleted.
 <br><br>![Deleted Project](https://github.com/madgepereira020701/Project-management/blob/main/Website%20Snapshots/9.%20Delete%20Project.png)<br><br>
 
@@ -35,9 +35,3 @@ Project Management has Sidebar button to add project and you have to click the b
 
 
 
-
-
-Result 1:<br><br>![Result 1](https://github.com/madgepereira020701/GK-Quiz-React-App/blob/main/Snapshots/Result%201.png)<br><br>
-<br>Result 2:<br><br>![Result 2](https://github.com/madgepereira020701/GK-Quiz-React-App/blob/main/Snapshots/Result%202.png)<br><br>
-<br>Result 3:<br><br>![Result 3](https://github.com/madgepereira020701/GK-Quiz-React-App/blob/main/Snapshots/Result%203.png)<br>
-<br><br>
