@@ -4,7 +4,7 @@ Project Management has Sidebar button to add project and you have to click the b
 
 # Website Snapshots
 <br>1. Home Page:
-<br><br>On pressing the Create Bew Project or Add Project button on the Home Page, we can add the details as shown in second pic.
+<br><br>On pressing the Create Bew Project or Add Project button on the Home Page, we can add the details as shown in second picture.
 <br>![Home Page](https://github.com/madgepereira020701/Project-management/blob/main/Website%20Snapshots/1.%20Home%20Page.png)<br><br>
 <br>2. Add Project:
 <br><br>Add the Project details - Title,description and date.
