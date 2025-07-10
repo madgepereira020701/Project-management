@@ -9,7 +9,7 @@ mongoURI =
 const connectDB = async () => {
   try {
     await mongoose.connect(mongoURI, {
-      connectTimeoutMS: 3000,
+      connectTimeoutMS: 30000,
     });
     console.log("Connected to MongoDb");
   } catch (err) {

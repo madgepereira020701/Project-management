@@ -1,10 +1,10 @@
 const Project = require("../models/project");
 
 const addproject = async (req, res) => {
-  const { name, description, due_date } = req.body;
+  const { title, description, duedate } = req.body;
 
   try {
-    const newproject = new Project({ name, description, due_date });
+    const newproject = new Project({ title, description, duedate });
     await newproject.save();
     res.status(201).json({ message: "Project added successfully" });
   } catch (err) {
