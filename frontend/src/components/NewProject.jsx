@@ -8,7 +8,7 @@ export default function NewProject({onAdd, onCancel})
     const description = useRef();
     const duedate = useRef();
 
-    function handleSave()
+    async function handleSave()
     {
         const enteredTitle = title.current.value;
         const enteredDescription = description.current.value;
@@ -22,14 +22,31 @@ export default function NewProject({onAdd, onCancel})
             modal.current.open();
             return; 
     }
-        onAdd({
-            title:enteredTitle,
-            description:enteredDescription,
-            duedate:enteredDueDate,
 
-        });
+    try {
+    const response  = await fetch("http://localhost:3000/addproject", {
+        method: "POST",
+        headers: {
+            "Content-Type" : "application/json"
+        },
+        body: JSON.stringify({
+            title: enteredTitle,
+            description: enteredDescription,
+            duedate: enteredDueDate,
+          }),
+        })
 
+    if(!response.ok) {
+        throw new Error(response.statusText)
+      }
+      const data = response.json();
+        onAdd(data);
 
+    }
+
+catch (err) {
+    console.error(err);
+}
     }
 
     return ( 
