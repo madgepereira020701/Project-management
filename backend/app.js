@@ -14,6 +14,9 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 app.post("/addproject", projectcontroller.addproject);
+app.get("/projects", projectcontroller.getproject);
+app.get("/projects/:id", projectcontroller.getSingleProject);
+app.delete("/projects/:id", projectcontroller.deleteProject);
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
